@@ -11,10 +11,13 @@ A Streamlit-based web application that predicts personalized health insurance co
 
 ## 🛠️ Tech Stack
 - Python
+- Pandas
+- Matplotlib
+- Seaborn
 - Streamlit
-- scikit-learn
-- pandas
-- joblib
+- Scikit-learn
+- XGBoost
+- Joblib
 
 ## 🚀 How to Run Locally
 ```bash
@@ -27,3 +30,6 @@ pip install -r requirements.txt
 
 # Run the app
 streamlit run app/streamlit_app.py
+```
+## Analysis in EDA
+Explore eda.ipynb files for better understanding of how model works 
