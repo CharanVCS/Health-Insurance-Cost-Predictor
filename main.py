@@ -4,7 +4,7 @@ from prediction_helper import predict
 
 
 # Define the page layout
-st.title('Health Insurance Premium Predictor')
+st.title('Health Insurance Cost Predictor')
 
 categorical_options = {
     'Gender': ['Male', 'Female'],
