@@ -21,6 +21,23 @@ categorical_options = {
     'Insurance Plan': ['Bronze', 'Silver', 'Gold']
 }
 
+# Add a collapsible section for input field descriptions
+with st.expander("ℹ️ Show Input Descriptions", expanded=False):
+    st.markdown("""
+    - **Age:** Your current age in years (must be 18 or older).  
+    - **Number of Dependants:** Total number of financially dependent family members.  
+    - **Income in Lakhs:** Annual income in Indian lakhs (1 lakh = ₹100,000).  
+    - **Genetical Risk:** Family history of diseases (scale: 0–5; higher = more risk).  
+    - **Insurance Plan:** Choose a coverage tier – Bronze, Silver, or Gold.  
+    - **Employment Status:** Your current employment type (e.g., Salaried, Freelancer).  
+    - **Gender:** Your gender (Male or Female).  
+    - **Marital Status:** Select Unmarried or Married.  
+    - **BMI Category:** Based on your Body Mass Index group.  
+    - **Smoking Status:** Your smoking habits (No, Occasional, Regular).  
+    - **Region:** Your location region in India.  
+    - **Medical History:** List of existing or past health conditions.  
+    """)
+
 # Create four rows of three columns each
 row1 = st.columns(3)
 row2 = st.columns(3)
